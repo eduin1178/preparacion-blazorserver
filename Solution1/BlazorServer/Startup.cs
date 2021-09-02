@@ -19,7 +19,6 @@ namespace BlazorServer
         {
             Configuration = configuration;
         }
-//Propiedad
         public IConfiguration Configuration { get; }
 
         public void ConfigureServices(IServiceCollection services)
